@@ -2,6 +2,8 @@
 
 **Team: 0spammers** | Redrob Hackathon — India Runs Data & AI Challenge
 
+🌍 **Live Sandbox:** [https://0spammers-talent-ranker.streamlit.app](https://0spammers-talent-ranker.streamlit.app)
+
 ---
 
 ## Overview
