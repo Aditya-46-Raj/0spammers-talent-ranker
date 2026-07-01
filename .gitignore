@@ -1,0 +1,38 @@
+# Virtual environment
+/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Build artifacts
+dist/
+build/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated output (reproduce via: python main.py)
+team_0spammers.csv
+
+# Temporary scripts
+verify_output.py
+
+# Confidential Hackathon Data
+docs/
+*.csv

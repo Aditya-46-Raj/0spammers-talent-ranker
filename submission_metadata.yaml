@@ -1,0 +1,23 @@
+team_name: "0spammers"
+primary_contact_name: "Aditya Raj"
+primary_contact_email: "adityar.ug23.ec@nitp.ac.in"
+primary_contact_phone: "+91-6207943272"
+github_repo_url: "https://github.com/Aditya-46-Raj/0spammers-talent-ranker"
+sandbox_link: "https://huggingface.co/spaces/Aditya-46-Raj/0spammers-talent-ranker"
+ai_tools_declared: "Gemini"
+compute_environment: "Windows 11 / Intel Core / 16GB RAM / Python 3.14 / CPU-only"
+team_members: ["Aditya Raj"]
+methodology_summary: >
+  Multi-stage unsupervised ranking pipeline for CPU-only, no-API constraints.
+  Stage 0: Honeypot removal via impossible-profile detection (expert skills with
+  zero usage, skill durations exceeding career length, experience inflation, and
+  Time Travelers working at GenAI companies before they were founded).
+  Stage 1: BM25 first-pass retrieval (top 2000) with punctuation-stripped tokenization.
+  Stage 2: Semantic re-ranking (top 1500) using BAAI/bge-small-en-v1.5 cosine similarity.
+  Stage 3: Feature-based composite scoring combining semantic (0.30), BM25 (0.15),
+  JD skill matching (0.20), career trajectory analysis (0.20), and all 23 behavioral
+  signals (0.15). Career scoring penalizes consulting-only backgrounds and rewards
+  product-company deployment experience. Behavioral scoring weights recruiter
+  response rate, recency, GitHub activity, notice period, and applies severe penalty
+  multipliers for ghosting recruiters or skipping interviews.
+  Final scores are Min-Max normalized. Reasoning generated dynamically from real candidate facts.
