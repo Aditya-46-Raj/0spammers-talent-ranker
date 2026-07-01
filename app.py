@@ -21,7 +21,7 @@ st.title("🧠 Redrob Candidate Ranker — Sandbox")
 st.caption("Team: 0spammers | Intelligent Candidate Discovery & Ranking Challenge")
 
 st.markdown("""
-Upload a candidate JSON or JSONL file (≤100 candidates).
+Upload a candidate JSON or JSONL file (≤1000 candidates).
 The system will run the full ranking pipeline and produce a ranked CSV.
 """)
 
