@@ -3,10 +3,10 @@ primary_contact_name: "Aditya Raj"
 primary_contact_email: "adityar.ug23.ec@nitp.ac.in"
 primary_contact_phone: "+91-6207943272"
 github_repo_url: "https://github.com/Aditya-46-Raj/0spammers-talent-ranker"
-sandbox_link: "https://huggingface.co/spaces/Aditya-46-Raj/0spammers-talent-ranker"
+sandbox_link: "https://0spammers-talent-ranker.streamlit.app"
 ai_tools_declared: "Gemini"
 compute_environment: "Windows 11 / Intel Core / 16GB RAM / Python 3.14 / CPU-only"
-team_members: ["Aditya Raj"]
+team_members: ["Aditya Raj","Anjali Kumari"]
 methodology_summary: >
   Multi-stage unsupervised ranking pipeline for CPU-only, no-API constraints.
   Stage 0: Honeypot removal via impossible-profile detection (expert skills with
